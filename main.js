@@ -3,7 +3,7 @@ function preload() {
 
 function setup() {
     canvas = createCanvas(640, 480);
-    canvas.position(325, 275);
+    canvas.center();
     video = createCapture(VIDEO);
     video.hide();
     tint_color = "";
